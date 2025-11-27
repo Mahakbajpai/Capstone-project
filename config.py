@@ -7,7 +7,7 @@ load_dotenv()
 
 # GOOGLE GEMINI API KEY
 # Get this from https://aistudio.google.com/
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "AIzaSyC2zHa3cpd6y5aLIAap63A0g4_G3j2Avio")
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "AIzaSyCGX3-daUblGSZJdTrboskrw5GoEnNnqtw")
 
-if GOOGLE_API_KEY == "AIzaSyC2zHa3cpd6y5aLIAap63A0g4_G3j2Avio":
+if GOOGLE_API_KEY == "AIzaSyCGX3-daUblGSZJdTrboskrw5GoEnNnqtw":
     print("WARNING: You need to set your Google API Key in config.py")
