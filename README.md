@@ -39,25 +39,33 @@ The system is composed of five specialized agents working in sequence:
    Architecture Pattern - LLM-Powered Agent (Gemini)
 
 3. Agent Name - Data Retrieval Agent (DataCollector)
+
    Role & Responsibility - Fetches raw metrics from different enterprise sources (GL, ERP) by executing two tool calls in parallel.
+
    Architecture Pattern - Parallel Agents
 
-4. Agent Name - Analysis Agent (CalculationEngine)
+5. Agent Name - Analysis Agent (CalculationEngine)
+
    Role & Responsibility - Performs custom calculations (EBITDA, Variance) and uses an internal Loop to verify all ratios against budget thresholds.
+
    Architecture Pattern - Sequential Agent / Loop Agent
 
-5. Agent Name - Report Drafting Agent (NarrativeWriter)
+7. Agent Name - Report Drafting Agent (NarrativeWriter)
+
    Role & Responsibility - Converts the structured metrics and variance flags into a cohesive, executive-ready narrative report.
+
    Architecture Pattern - Sequential Agent
 
-6. Agent Name - Review Agent (ComplianceChecker)
+9. Agent Name - Review Agent (ComplianceChecker)
+
    Role & Responsibility - Acts as the critic. Validates numerical accuracy using code execution and checks policy against Memory, initiating a Critique Loop if required.
+
    Architecture Pattern - Loop Agent (Critique Pattern)
 
 
    # Essential Tools and utilities
 
-   1. Multi-Agent System (Sequential, Parallel, Loop)
+1. Multi-Agent System (Sequential, Parallel, Loop)
 
 Sequential Agents: The high-level workflow is a controlled sequence (Data $\to$ Analysis $\to$ Draft $\to$ Review), ensuring data integrity.
 
