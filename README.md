@@ -140,7 +140,8 @@ cd Multi-Agent-Financial-Reporting-Engine
 
 ``` python -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 
 
@@ -156,7 +157,8 @@ Insert your Gemini API Key into this file. (DO NOT commit this file to Git.)
 
  4. Execute the Agent:
 
-```  python financial_reporting_engine.py```
+```  python financial_reporting_engine.py
+```
 
 
 
