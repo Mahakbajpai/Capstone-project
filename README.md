@@ -104,11 +104,17 @@ Contextual Narrative: The final report narrative includes a summary of the calcu
 The project is organized as follows:
 
 Multi-Agent-Financial-Reporting-Engine/
+
 ├── README.md              (This documentation)
+
 ├── financial_reporting_engine.py (The core, executable agent code)
+
 ├── requirements.txt         (List of Python dependencies)
+
 ├── LICENSE                (Open Source License)
+
 ├── config.py.template     (Template for secure API key configuration)
+
 └── card and thumbnail image.png (The architectural diagram)
 
 
