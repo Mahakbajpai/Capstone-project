@@ -44,19 +44,19 @@ The system is composed of five specialized agents working in sequence:
 
    Architecture Pattern - Parallel Agents
 
-5. Agent Name - Analysis Agent (CalculationEngine)
+4. Agent Name - Analysis Agent (CalculationEngine)
 
    Role & Responsibility - Performs custom calculations (EBITDA, Variance) and uses an internal Loop to verify all ratios against budget thresholds.
 
    Architecture Pattern - Sequential Agent / Loop Agent
 
-7. Agent Name - Report Drafting Agent (NarrativeWriter)
+5. Agent Name - Report Drafting Agent (NarrativeWriter)
 
    Role & Responsibility - Converts the structured metrics and variance flags into a cohesive, executive-ready narrative report.
 
    Architecture Pattern - Sequential Agent
 
-9. Agent Name - Review Agent (ComplianceChecker)
+6. Agent Name - Review Agent (ComplianceChecker)
 
    Role & Responsibility - Acts as the critic. Validates numerical accuracy using code execution and checks policy against Memory, initiating a Critique Loop if required.
 
