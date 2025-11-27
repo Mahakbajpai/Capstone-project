@@ -33,23 +33,23 @@ This delivers a complete, accurate, and compliant strategic report in minutes, n
 The system is composed of five specialized agents working in sequence:
 
 1. Agent Name - Financial Supervisor (Orchestrator)
-   Role & Responsibility - The project manager. Decomposes the user request ("Q4 Variance Report") and manages the overall       Sequential flow between all sub-agents.
+   Role & Responsibility - The project manager. Decomposes the user request ("Q4 Variance Report") and manages the overall Sequential flow between all sub-agents.
    Architecture Pattern - LLM-Powered Agent (Gemini)
 
 2. Agent Name - Data Retrieval Agent (DataCollector)
-   Role & Responsibility - Fetches raw metrics from different enterprise sources (GL, ERP) by executing two tool calls in        parallel.
+   Role & Responsibility - Fetches raw metrics from different enterprise sources (GL, ERP) by executing two tool calls in parallel.
    Architecture Pattern - Parallel Agents
 
 3. Agent Name - Analysis Agent (CalculationEngine)
-   Role & Responsibility - Performs custom calculations (EBITDA, Variance) and uses an internal Loop to verify all ratios        against budget thresholds.
+   Role & Responsibility - Performs custom calculations (EBITDA, Variance) and uses an internal Loop to verify all ratios against budget thresholds.
    Architecture Pattern - Sequential Agent / Loop Agent
 
 4. Agent Name - Report Drafting Agent (NarrativeWriter)
-   Role & Responsibility - Converts the structured metrics and variance flags into a cohesive, executive-ready narrative         report.
+   Role & Responsibility - Converts the structured metrics and variance flags into a cohesive, executive-ready narrative report.
    Architecture Pattern - Sequential Agent
 
 5. Agent Name - Review Agent (ComplianceChecker)
-   Role & Responsibility - Acts as the critic. Validates numerical accuracy using code execution and checks policy against       Memory, initiating a Critique Loop if required.
+   Role & Responsibility - Acts as the critic. Validates numerical accuracy using code execution and checks policy against Memory, initiating a Critique Loop if required.
    Architecture Pattern - Loop Agent (Critique Pattern)
 
 
@@ -149,7 +149,6 @@ python financial_reporting_engine.py
 
 # Value Statement & Future Work
 
-# Value Statement
 
 The implementation of the Financial Reporting Engine provided a direct and measurable return on investment for the simulated business:
 
