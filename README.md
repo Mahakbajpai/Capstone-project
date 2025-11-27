@@ -157,7 +157,7 @@ Insert your Gemini API Key into this file. (DO NOT commit this file to Git.)
 
  4. Execute the Agent:
 
-```  python financial_reporting_engine.py
+```bash  python financial_reporting_engine.py
 ```
 
 
