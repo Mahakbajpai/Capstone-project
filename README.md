@@ -126,8 +126,8 @@ This project was built against Python 3.9+. It is suggested you use a virtual en
 
  1. Clone the Repository:
 
-``` bash git clone [https://github.com/Mahakbajpai/Capstone-project]```
-cd Multi-Agent-Financial-Reporting-Engine
+```bash git clone [https://github.com/Mahakbajpai/Capstone-project]
+cd Multi-Agent-Financial-Reporting-Engine```
 
 
 
@@ -137,7 +137,7 @@ cd Multi-Agent-Financial-Reporting-Engine
 
  2. Create Virtual Environment & Install Dependencies:
 
-``` bash python -m venv venv
+```bash python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt```
 
