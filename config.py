@@ -1,13 +1,9 @@
 # config.py
 import os
-from dotenv import load_dotenv
 
-# Load environment variables if using .env, otherwise set manually below
-load_dotenv()
+# I removed the "GOOGLE_API_KEY=" part from inside the quotes.
+# It should just be the raw code starting with AIza.
+GOOGLE_API_KEY = "AIzaSyCGX3-daUblGSZJdTrboskrw5GoEnNnqtw"
 
-# GOOGLE GEMINI API KEY
-# Get this from https://aistudio.google.com/
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "GOOGLE_API_KEY=AIzaSyCGX3-daUblGSZJdTrboskrw5GoEnNnqtw")
-
-if GOOGLE_API_KEY == "GOOGLE_API_KEY=AIzaSyCGX3-daUblGSZJdTrboskrw5GoEnNnqtw":
+if GOOGLE_API_KEY == "YOUR_ACTUAL_API_KEY_HERE":
     print("WARNING: You need to set your Google API Key in config.py")
