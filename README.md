@@ -126,8 +126,8 @@ This project was built against Python 3.9+. It is suggested you use a virtual en
 
  1. Clone the Repository:
 
-``` git clone [https://github.com/Mahakbajpai/Capstone-project]```
-``` cd Multi-Agent-Financial-Reporting-Engine```
+``` git clone [https://github.com/Mahakbajpai/Capstone-project]
+cd Multi-Agent-Financial-Reporting-Engine```
 
 
 
