@@ -109,7 +109,7 @@ Multi-Agent-Financial-Reporting-Engine/
 ├── requirements.txt         (List of Python dependencies)
 ├── LICENSE                (Open Source License)
 ├── config.py.template     (Template for secure API key configuration)
-└── capstone card and thumbnail image.png (The architectural diagram)
+└── card and thumbnail image.png (The architectural diagram)
 
 
 
